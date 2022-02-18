@@ -62,5 +62,4 @@ while True:
     
     command = input("> ")
     current_area = current_area.move(command)
-
-    print("Hello World")
+    print("this is to test the repository")

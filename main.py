@@ -62,3 +62,5 @@ while True:
     
     command = input("> ")
     current_area = current_area.move(command)
+
+    print("Hello World")

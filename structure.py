@@ -29,7 +29,6 @@ class Structure():
     def setRooms(self,newRoom):
         (self.Rooms).append(newRoom)
 
-
 class Room():
 
     def __init__(self,room_name,room_description):

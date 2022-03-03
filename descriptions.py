@@ -3,6 +3,7 @@ woodlandDescription = "A dense, dark forest with huge gnarled trees\n"
 grasslandDescription = "A barren plain of golden yellow grass\n"
 cragsDescription = "A large collection of jagged rocks sticking up towards the sky\n"
 icePlainsDescription = "Bitter wastelands of snow and ice\n"
+desertDescription = "Open plains of nothing but sand and cacti"
 
 #Enemies
 wildBoarDescription = "A Large hairy pig with dirty yellow tusks"
@@ -21,12 +22,17 @@ caveDescription = "There is a dark entrance to a cave, enshrouded in vines"
 castleEntranceDescription = "A grand hallway with suits of armour, and paintings covering the walls"
 castleCorridorsDescription = "A narrow stone passageway with flaming torches lining the walls"
 castleDungeonsDescription = "A small, crampt cell with chains on the walls and a torch burning in the corner"
-
 #Camp
 campEntranceDescription = "A small gateway in the wall of the camp"
-
 #Monastery
 monasteryEntranceDescription = "A humble wooden door in the wall leading to a small entrance hallway"
-
 #Dungeon
 caveEntranceDescription = "A steep stone stairway going down into blackness"
+
+
+#Items
+#Potions
+#Strength
+strengthPotionDescription = "A glass vial with a red liquid inside"
+#Lives
+healthPotionDescription = "A glass vial with a purple liquid inside"

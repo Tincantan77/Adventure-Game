@@ -202,6 +202,7 @@ class Area():
         self.Description = area_description
         self.Structure = None
         self.Character = None
+        self.Item = None
         self.Location = area_location
 
     def getName(self):
@@ -211,10 +212,13 @@ class Area():
         return self.Description
 
     def getCharacter(self):
-        return(self.Character)
+        return self.Character
 
     def getStructure(self):
-        return(self.Structure)
+        return self.Structure
+
+    def getItem(self):
+        return self.Item
 
     def printDetails(self):
         print(self.Name)
@@ -222,12 +226,7 @@ class Area():
         print(self.Description)
 
     def printLinks(self):
-        # if self.Structure != None:
-        #     print("There is a "+self.Structure+" here\n")
-        #     enter = input("Would you like to enter?")
-        #     print()
-        #     if enter == "Yes" or enter == "yes":
-        #         return True
+        print()
         for direction in self.LinkedAreas:
             area = self.LinkedAreas[direction]
             checkNamePlural = area.getName()
@@ -245,6 +244,9 @@ class Area():
 
     def setCharacter(self,newCharacter):
         self.Character = newCharacter
+
+    def setItem(self,newItem):
+        self.Item = newItem
 
     #Game Play
     def move(self,direction,current_area,world):
